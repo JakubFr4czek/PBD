@@ -1,0 +1,4 @@
+SELECT Customers.CustomerID, OrderID, Address, City, Region, PostalCode, Country
+FROM Customers
+LEFT OUTER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+WHERE OrderID is NULL

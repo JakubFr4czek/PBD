@@ -1,0 +1,1 @@
+SELECT ROUND(Quantity * UnitPrice * (1 - Discount),2) FROM [Order Details] WHERE OrderID = 10250 OR OrderID < 9000

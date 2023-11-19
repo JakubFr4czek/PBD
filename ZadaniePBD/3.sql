@@ -1,0 +1,1 @@
+SELECT OrderID, MAX(UnitPrice), MIN(UnitPrice) FROM [Order Details] GROUP BY OrderID

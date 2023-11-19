@@ -1,0 +1,1 @@
+SELECT ShipVia, Count(*) FROM Orders GROUP BY ShipVia
